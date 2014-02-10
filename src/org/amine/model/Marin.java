@@ -5,11 +5,10 @@ import java.io.Serializable;
 
 import javax.persistence.*;;
 
-@Entity(name="marin")
-@Table(name="marin")
+
 public class Marin implements Serializable {
 
-	@Id @GeneratedValue(strategy=GenerationType.AUTO)
+
 	private long id;
 	private String nom;
 	private String prenom;
